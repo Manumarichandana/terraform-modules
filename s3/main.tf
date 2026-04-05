@@ -2,11 +2,11 @@ provider "aws" {
     region = var.region
 }
 
-resource "aws_s3_bucket" "my-bucket" {
+resource "aws_s3_bucket" "this" {
     bucket = var.bucket
 }
 
-resource "aws_s3_bucket_versioning" "my-bucket" {
+resource "aws_s3_bucket_versioning" "this" {
     bucket = aws_s3_bucket.my-bucket.id
 
     versioning_configuration {
