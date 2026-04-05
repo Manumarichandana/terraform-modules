@@ -1,7 +1,7 @@
 variable "region" {
     description = "aws region to create resource in"
     type        = string
-    default     = eu-west-2
+    default     = "eu-west-2"
 }
 
 variable "bucket" {
