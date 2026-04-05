@@ -6,7 +6,7 @@ variable "region" {
 
 variable "bucket" {
     description = "Tha name of the bucket"
-    type        = "string"
+    type        = string
 }
 
 variable "versioning" {
